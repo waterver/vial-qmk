@@ -1,0 +1,56 @@
+#pragma once
+
+#include "config_common.h"
+
+// LAYER
+#define LAYER_STATE_8BIT
+
+// USB ID
+#define VENDOR_ID    0x0046
+#define PRODUCT_ID   0x0348
+#define DEVICE_VER   0x0002
+#define MANUFACTURER waterver
+#define PRODUCT      SCHDB
+// #define DESCRIPTION  
+
+// KEYBOARD MATRIX
+#define MATRIX_ROWS 4
+#define MATRIX_COLS 5
+
+#define MATRIX_ROW_PINS { B1, B0, C7, C6 }
+#define MATRIX_COL_PINS { F0, F7, F6, F1, D5 }
+// #define UNUSED_PINS
+
+#define DIODE_DIRECTION COL2ROW
+
+// RGB
+#define RGB_DI_PIN E6
+#define DRIVER_LED_TOTAL 16
+
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 170
+
+
+#define RGB_MATRIX_KEYPRESSES
+#define ENABLE_RGB_MATRIX_CYCLE_ALL
+#define ENABLE_RGB_MATRIX_BREATHING
+#define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
+#define ENABLE_RGB_MATRIX_HUE_BREATHING
+
+#define MATRIX_IO_DELAY 50
+
+// debounce
+#define DEBOUNCE 5
+
+// ENCONDER
+#define ENCODERS_PAD_A { B2, B4 }
+#define ENCODERS_PAD_B { B3, D7 }
+
+#define ENCODER_DIRECTION_FLIP
+
+#define ENCODER_RESOLUTIONS { 4, 4 }
+
+// OLED
+// #define OLED_BRIGHTNESS 128
+// #define OLED_DISPLAY_ADDRESS 0x3c
+// #define OLED_SCROLL_TIMEOUT 5000
+// #define OLED_TIMEOUT 20000

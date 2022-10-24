@@ -34,3 +34,9 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+## ADD&DELET
+
+1. 删除示例keyboard中的所有键盘，需要参考的请
+2. 新建所用键盘的配置在keyboard文件夹
+3. 新建所用键盘所需的固件
