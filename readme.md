@@ -40,3 +40,11 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 1. 删除示例keyboard中的所有键盘，需要参考的请
 2. 新建所用键盘的配置在keyboard文件夹
 3. 新建所用键盘所需的固件
+
+## waterver keyboard
+
+1. 键盘本体（完成）
+2. 定位板（未完成）
+3. oled放定位板上（未完成）
+
+***目前键盘使用嘉立创eda，制作完开源，目前有需要的请下载keyboard/waterver查看keymap复刻***
